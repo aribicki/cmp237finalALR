@@ -12,6 +12,6 @@ function filter(array, test) {
      return passed;
      }
      
-      print(JSON.stringify(filter(myarray, function(number) {
+      print(JSON.stringify(filter(myarray, function(belowfive) {
        return number.randomnumber < 5;                             
      })));
