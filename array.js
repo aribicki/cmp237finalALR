@@ -1,4 +1,4 @@
-load('myarraynumbers.js'); 
+load('myarray.js'); 
 var myarray = JSON.parse(MYARRAY_File);       
 print(JSON.stringify(myarray);
 function filter(array, test) {
