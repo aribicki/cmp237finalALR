@@ -13,5 +13,5 @@ function filter(array, test) {
      }
      
       print(JSON.stringify(filter(myarray, function(belowfive) {
-       return number.randomnumber < 5;                             
+       return number.randomnumber < 5;                     // returns any that are less then 5         
      })));
