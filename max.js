@@ -8,4 +8,8 @@ function reduce(myarray, combine, start) {
     return current;
   }
 
-print(myarray.reduce(function(highest, cur)))
+print(myarray.reduce(function(highest, cur){
+  highest = 1;
+  if (myarray.randomnumber > highest) return cur;
+  else return high;
+}))
